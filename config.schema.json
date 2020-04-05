@@ -1,0 +1,57 @@
+{
+   "pluginAlias":"FlickElectric",
+   "pluginType":"accessory",
+   "singular":true,
+   "headerDisplay":null,
+   "schema":{
+      "type":"object",
+      "properties":{
+          "name":{
+             "title":"Accessory Name",
+             "type":"string",
+             "format":"string",
+             "default":"Flick Electric",
+             "description":"The name of your device to show in the Home app",
+             "minLength": 1,
+             "required": true
+          },
+          "token":{
+             "title":"OAuth token",
+             "type":"string",
+             "format":"string",
+             "description":"The OAuth token from your Flick Electric app login",
+             "minLength": 1,
+             "required": true
+          },
+         "debug":{
+            "title":"Debug logging",
+            "type":"boolean",
+            "description":"Turns on additional logging (can be helpful for diagnosing issues)"
+         }
+      }
+   },
+   "layout":[
+        {
+          "type":"flex",
+          "flex-flow":"row wrap",
+          "items":[
+              {
+                 "key":"name",
+                 "type":"string"
+              },
+              {
+                 "key":"token",
+                 "type":"string"
+              }
+          ]
+        },
+        {
+             "type":"fieldset",
+             "title":"Advanced configuration",
+             "expandable":true,
+             "items":[
+                "debug"
+             ]
+        }
+   ]
+}

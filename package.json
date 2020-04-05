@@ -1,0 +1,34 @@
+{
+  "name": "homebridge-flick-electric",
+  "version": "1.0.0",
+  "description": "See your Flick Electric Freestyle pricing in HomeKit",
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.88.2"
+  },
+  "engines": {
+    "homebridge": ">=0.4.0",
+    "node": ">=8.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codyc1515/homebridge-flick-electric.git"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "homekit",
+    "flick",
+    "electric",
+    "freestyle"
+  ],
+  "author": "codyc1515",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codyc1515/homebridge-flick-electric/issues"
+  },
+  "homepage": "https://github.com/codyc1515/homebridge-flick-electric#readme"
+}
