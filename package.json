@@ -1,23 +1,45 @@
 {
-  "name": "homebridge-flick-electric",
-  "version": "1.0.0",
-  "description": "See your Flick Electric Freestyle pricing in HomeKit",
-  "main": "index.js",
+  "_from": "homebridge-flick-electric@latest",
+  "_id": "homebridge-flick-electric@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-AoZmAeadGa2ti1PIgFKf6AGj4amqJqVdDn2qIhuHwySd+bSsvNih4lIqQwmA82vlNVF3+/O9922vRh+YIOl2Bw==",
+  "_location": "/homebridge-flick-electric",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "homebridge-flick-electric@latest",
+    "name": "homebridge-flick-electric",
+    "escapedName": "homebridge-flick-electric",
+    "rawSpec": "latest",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/homebridge-flick-electric/-/homebridge-flick-electric-1.1.0.tgz",
+  "_shasum": "d2f53ca37d8c2050e47be80ec59d86cead24ab9b",
+  "_spec": "homebridge-flick-electric@latest",
+  "_where": "/usr/local",
+  "author": {
+    "name": "codyc1515"
+  },
+  "bugs": {
+    "url": "https://github.com/codyc1515/homebridge-flick-electric/issues"
+  },
+  "bundleDependencies": false,
   "dependencies": {
     "request": "^2.88.2"
   },
+  "deprecated": false,
+  "description": "See your Flick Electric Freestyle pricing in HomeKit",
+  "devDependencies": {},
   "engines": {
     "homebridge": ">=0.4.0",
     "node": ">=8.6.0"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/codyc1515/homebridge-flick-electric.git"
-  },
+  "homepage": "https://github.com/codyc1515/homebridge-flick-electric#readme",
   "keywords": [
     "homebridge-plugin",
     "homekit",
@@ -25,10 +47,15 @@
     "electric",
     "freestyle"
   ],
-  "author": "codyc1515",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/codyc1515/homebridge-flick-electric/issues"
+  "main": "index.js",
+  "name": "homebridge-flick-electric",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codyc1515/homebridge-flick-electric.git"
   },
-  "homepage": "https://github.com/codyc1515/homebridge-flick-electric#readme"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.0"
 }
